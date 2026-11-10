@@ -21,7 +21,7 @@ conn.commit()
 
 url = "https://books.toscrape.com/catalogue/page-1.html"
 page_num = 1
-first_page_books = [] # Сюда сохраним данные только с 1-й страницы для JSON
+first_page_books = []
 
 while url:
     response = requests.get(url)
